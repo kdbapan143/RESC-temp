@@ -48,7 +48,7 @@ body {
   }
   
   /* Desktop styles */
-  @media (min-width: 1001px) {
+  @media (min-width: 951px) {
     .head {
       padding: 2em;
     }
@@ -78,7 +78,7 @@ body {
       height: 50px;
     }
     .head-title h1 {
-      font-size: 28px;
+      font-size: 100%;
     }
     .head-menu ul.menu {
       flex-direction: column;
