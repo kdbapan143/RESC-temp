@@ -183,7 +183,7 @@ body {
     }
   }
   */
-  @media (max-width: 1000px) {
+  @media (max-width: 800px) {
     .gallery-grid{
       grid-template-columns: repeat(1, 1fr);
     }
