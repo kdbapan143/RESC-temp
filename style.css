@@ -68,7 +68,7 @@ body {
   }
   
   /* Mobile styles */
-  @media (max-width: 1000px) {
+  @media (max-width: 950px) {
     .head {
       padding: 1em;
       flex-direction: column;
