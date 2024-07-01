@@ -74,11 +74,11 @@ body {
       flex-direction: column;
     }
     .head-logo img {
-      width: 50px;
-      height: 50px;
+      width: 60px;
+      height: 60px;
     }
     .head-title h1 {
-      font-size: 50px;
+      font-size: 35px;
     }
     .head-menu ul.menu {
       flex-direction: column;
