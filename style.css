@@ -177,7 +177,7 @@ body {
     margin-top: 10px;
   }
   
-  /* Responsive styles */
+  /* Responsive styles 
   @media (min-width: 1001px) {
     .gallery-grid {
       grid-template-columns: repeat(2, 1fr);
@@ -196,7 +196,7 @@ body {
        font-size: 32px;
   }
   }
-
+*/
   /* About Code */
   .about-container {
     max-width: 800px;
