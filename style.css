@@ -74,22 +74,24 @@ body {
       flex-direction: column;
     }
     .head-logo img {
-      width: 100px;
-      height: 100px;
+      width: 192px;
+      height: 192px;
     }
     .head-title h1 {
-      font-size: 35px;
+      font-size: 38px;
+        padding: 10px;
     }
     .head-menu ul.menu {
       flex-direction: column;
     }
     .head-menu li {
       margin-right: 0;
-      padding: 10px;
+      padding: 12px;
     }
     .head-menu a {
-      padding: 10px;
+      padding: 12px;
       border-bottom: 1px solid #ccc;
+      font-size: 30px;  
     }
   }
 
