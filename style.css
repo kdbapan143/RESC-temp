@@ -74,8 +74,8 @@ body {
       flex-direction: column;
     }
     .head-logo img {
-      width: 80px;
-      height: 80px;
+      width: 100px;
+      height: 100px;
     }
     .head-title h1 {
       font-size: 35px;
