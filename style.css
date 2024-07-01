@@ -133,8 +133,13 @@ body {
   /* Mobile styles */
   @media (max-width: 1000px) {
     .course-box {
-      width: 100%;
+      width: 70%;
     }
+    .course-box h2{
+        font-size: 30px;
+    }
+    .course-box li{
+        font-size: 25px;
   }
 
   
