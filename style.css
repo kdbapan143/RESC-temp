@@ -177,17 +177,24 @@ body {
     margin-top: 10px;
   }
   
-  /* Responsive styles */
+  /* Responsive styles 
   @media (max-width: 992px) {
     .gallery-grid {
       grid-template-columns: repeat(2, 1fr);
     }
   }
-  
+  */
   @media (max-width: 1000px) {
     .gallery-grid{
       grid-template-columns: repeat(1, 1fr);
     }
+    .gallery-item img {
+    width: 100%;
+    height: 600px;
+  }
+       .gallery-container h2{
+       font-size: 32px;
+  }
   }
 
   /* About Code */
