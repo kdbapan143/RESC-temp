@@ -48,7 +48,7 @@ body {
   }
   
   /* Desktop styles */
-  @media (min-width: 769px) {
+  @media (min-width: 426px) {
     .head {
       padding: 2em;
     }
@@ -68,7 +68,7 @@ body {
   }
   
   /* Mobile styles */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     .head {
       padding: 1em;
       flex-direction: column;
