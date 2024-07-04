@@ -249,6 +249,7 @@ footer.foot {
   @media (min-width: 914px) {
     footer.foot {
       padding: 2em;
+      width:100%
     }
    .foot-copyright {
       font-size: 18px;
@@ -259,7 +260,7 @@ footer.foot {
   }
   
   /* Mobile styles for footer */
-  @media (max-width: 914px) {
+  @media (max-width: 1000px) {
     footer.foot {
       padding: 1em;
     }
@@ -298,33 +299,47 @@ footer.foot {
   
   /* Responsive styles */
   
-  @media (max-width: 914px) {
+  @media (max-width: 1000px) {
     .about-section {
       padding: 20px 0;
     }
     .about-image {
-      height: 200px;
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 20px;
     }
-    .col-md-6 {
-      flex: 0 0 100%;
-      max-width: 100%;
-    }
+    
   }
   
-  @media (max-width: 914px) {
+  @media (max-width: 1000px) {
     .about-section {
       padding: 10px 0;
     }
     .about-image {
-      height: 150px;
+      height: 350px;
+      padding-left: 3%;
+      padding-right: 3%;
+    }
+    
+    .about-section h2 {
+      font-weight: bold;
+      padding-top: 5%;
+      padding-left: 3%;
+      font-size: 45px;
+    }
+    
+    .about-section p {
+      margin-bottom: 20px;
+      padding-left: 3%;
+      text-align: justify;
     }
   }
 
   /* Map Section Code */
 
   .map-section {
-    padding: 2rem;
-    background-color: #f7f7f7;
+    padding: 2%;
+    background-color: #f7f0f0;
   }
   
   .map-container {
@@ -333,7 +348,7 @@ footer.foot {
     height: 0;
     overflow: hidden;
   }
-  
+  /*
   #map {
     position: absolute;
     top: 0;
@@ -341,7 +356,8 @@ footer.foot {
     width: 100%;
     height: 100%;
   }
-  
+  */
+
   /* Responsive styles */
   
   /* Large screens */
@@ -365,3 +381,119 @@ footer.foot {
     }
   }
 
+
+  /* Contact form section */
+  .contact-section {
+    padding: 20px;
+  }
+  
+  .contact-form-container, .contact-us-container {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form-container {
+    width: 45%;
+    float: left;
+    margin-right: 20px;
+    height: 55%;
+    margin-bottom: 20px;
+  }
+  
+  .contact-us-container {
+    width: 45%;
+    float: right;
+    height: 55%;
+    margin-bottom: 20px;
+  }
+
+  .contact-form-container h2{
+    font-size: 30px;
+  }
+
+  .contact-us-container h2{
+    font-size: 30px;
+  }
+  
+  .contact-form-container label {
+    font-size: 25 ;
+  }
+
+  .contact-form-container label[for="message"] {
+    vertical-align:top;
+  }
+
+  .contact-form-container input[type="text"],
+  .contact-form-container input[type="email"] {
+    width: 65%;
+    height: 35px;
+    margin-left: 7%;
+  }
+
+  .contact-form-container textarea{
+    width: 65%;
+    height: 85px;
+  }
+
+.contact-form-container input[type="submit"]{
+  width: 20%;
+  height: 35px;
+  font-size: 25px;
+  margin-left: 40%;
+  margin-top: 15px;
+}
+
+.contact-us-container p{
+  font-size: 25px;
+  padding-top: 5%;
+}
+
+  @media (max-width: 1000px) {
+    .contact-form-container {
+      width: 85%;
+      height: 30%;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 5%;
+    }
+    .contact-form-container input[type="text"],
+     .contact-form-container input[type="email"] {
+      width: 65%;
+      height: 50px;
+      margin-top: 2%;
+      margin-left: 5%;
+  }
+  .contact-form-container textarea{
+    width: 60%;
+      height: 30%;
+      margin-top: 5%;
+      margin-left: 16%;
+  }
+  .contact-form-container label[for="message"] {
+    position: absolute;
+    padding-top: 80px;
+  }
+  .contact-form-container input[type="submit"]{
+    width: 20%;
+    height: 50px;
+    font-size: 35px;
+    margin-left: 40%;
+    margin-top: 15px;
+  }
+
+  .contact-us-container{
+    width: 85%;
+      height: 20%;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+  }
+
+  .contact-form-container h2, .contact-us-container h2{
+    font-size: 45px;
+  }
+  }
