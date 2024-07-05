@@ -344,7 +344,7 @@ footer.foot {
   /* Medium screens */
   @media (min-width: 914px) and (max-width: 1000px) {
     .map-container {
-      height: 500px; /* adjust the height to fit your needs */
+      height: 450px; /* adjust the height to fit your needs */
     }
   }
   
