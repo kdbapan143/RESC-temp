@@ -326,7 +326,7 @@ footer.foot {
   
   .map-container {
     position: relative;
-    padding-bottom: 2%; /* 16:9 aspect ratio */
+   /* padding-bottom: 2%;  16:9 aspect ratio */
     height: 0;
     overflow: hidden;
   }
