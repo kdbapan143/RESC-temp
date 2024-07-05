@@ -74,22 +74,24 @@ body {
       flex-direction: column;
     }
     .head-logo img {
-      width: 50px;
-      height: 50px;
+      width: 192px;
+      height: 192px;
     }
     .head-title h1 {
-      font-size: 18px;
+      font-size: 38px;
+        padding: 10px;
     }
     .head-menu ul.menu {
       flex-direction: column;
     }
     .head-menu li {
       margin-right: 0;
-      padding: 10px;
+      padding: 12px;
     }
     .head-menu a {
-      padding: 10px;
+      padding: 12px;
       border-bottom: 1px solid #ccc;
+      font-size: 30px;  
     }
   }
 
@@ -114,29 +116,33 @@ body {
     margin-top: 0;
   }
   
-  /* Desktop styles 
-  @media (min-width: 768px) {
+  /* Desktop styles */
+  @media (min-width: 1001px) {
     .course-box {
       width: 25%;
     }
   }
   
-   Tablet styles 
-  @media (min-width: 480px) and (max-width: 767px) {
+  /* Tablet styles 
+  @media (min-width: 480px) and (max-width: 914px) {
     .course-box {
       width: 50%;
     }
-  }
-  */
-  /* Mobile styles */
-  @media (max-width: 100px) {
-    .course-box {
-      width: 100%;
-    }
-  }
-
+  }*/
   
-  .gallery-container {
+  /* Mobile styles */
+  @media (max-width: 1000px) {
+    .course-box {
+      width: 70%;
+    }
+    .course-box h2{
+        font-size: 30px;
+    }
+    .course-box li{
+        font-size: 25px;
+  }
+  }
+   .gallery-container {
     max-width: 1200px;
     margin: 40px auto;
     padding: 20px;
@@ -171,16 +177,23 @@ body {
   }
   
   /* Responsive styles 
-  @media (max-width: 992px) {
+  @media (min-width: 1001px) {
     .gallery-grid {
       grid-template-columns: repeat(2, 1fr);
     }
-  }*/
-  
+  }
+  */
   @media (max-width: 1000px) {
     .gallery-grid{
       grid-template-columns: repeat(1, 1fr);
     }
+    .gallery-item img {
+    width: 100%;
+    height: 600px;
+  }
+       .gallery-container h2{
+       font-size: 32px;
+  }
   }
 
   /* About Code */
@@ -203,7 +216,6 @@ body {
     line-height: 1.5;
     margin-bottom: 20px;
   }
-
 /* Footer styles */
 footer.foot {
     background-color: #333;
