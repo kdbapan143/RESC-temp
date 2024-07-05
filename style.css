@@ -217,6 +217,7 @@ body {
     margin-bottom: 20px;
   }
 
+
 /* Footer styles */
 footer.foot {
     background-color: #333;
@@ -246,10 +247,10 @@ footer.foot {
   }
   
   /* Desktop styles for footer */
-  @media (min-width: 914px) {
+  @media (min-width: 1001px) {
     footer.foot {
       padding: 2em;
-      width:100%
+      
     }
    .foot-copyright {
       font-size: 18px;
@@ -272,7 +273,6 @@ footer.foot {
     }
   }
 
-
 /* Contact HTML Webpage */
 .about-section {
     padding: 50px 0;
@@ -289,11 +289,16 @@ footer.foot {
   
   .about-section h2 {
     font-weight: bold;
-    margin-top: 0;
+    margin-top: 5%;
+    margin-left: 2%;
+    font-size: 35px;
   }
   
   .about-section p {
     margin-bottom: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
   }
   
   
@@ -304,40 +309,17 @@ footer.foot {
       padding: 20px 0;
     }
     .about-image {
-      width: 100%;
-      border-radius: 10px;
-      margin-bottom: 20px;
+      height: 400px;
     }
-    
-  }
-  
-  @media (max-width: 1000px) {
-    .about-section {
-      padding: 10px 0;
-    }
-    .about-image {
-      height: 350px;
-      padding-left: 1%;
-      padding-right: 2%;
-    }
-    
-    .about-section h2 {
-      font-weight: bold;
-      padding-top: 5%;
-      padding-left: 3%;
-      font-size: 45px;
-    }
-    
-    .about-section p {
-      margin-bottom: 20px;
-      padding-left: 3%;
-      text-align: justify;
+    .col-md-6 {
+      flex: 0 0 100%;
+      max-width: 100%;
     }
   }
 
-  /* Map Section Code */
+/* Map Section Code */
 
-  .map-section {
+.map-section {
     padding: 2%;
     background-color: #f7f0f0;
   }
@@ -348,15 +330,7 @@ footer.foot {
     height: 0;
     overflow: hidden;
   }
-  /*
-  #map {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-  */
+
 
   /* Responsive styles */
   
@@ -370,7 +344,7 @@ footer.foot {
   /* Medium screens */
   @media (min-width: 914px) and (max-width: 1199px) {
     .map-container {
-      height: 400px; /* adjust the height to fit your needs */
+      height: 580px; /* adjust the height to fit your needs */
     }
   }
   
@@ -381,9 +355,8 @@ footer.foot {
     }
   }
 
-
-  /* Contact form section */
-  .contact-section {
+/* Contact form section */
+.contact-section {
     padding: 20px;
   }
   
