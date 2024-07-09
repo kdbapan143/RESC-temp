@@ -93,6 +93,12 @@ body {
       border-bottom: 1px solid #ccc;
       font-size: 30px;  
     }
+      .menu .menuhome{
+      margin-left: 14%;
+    }
+    .menu .menucont{
+      margin-left: 4%;
+    }
   }
 
 
